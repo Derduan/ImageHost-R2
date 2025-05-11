@@ -1,5 +1,5 @@
 async function fetchConfig() {
-  const res = await fetch("https://api.nbvil.com/config");
+  const res = await fetch("https://img.riverj.dpdns.org/config");
   if (!res.ok) throw new Error("获取配置失败");
   return await res.json();
 }
